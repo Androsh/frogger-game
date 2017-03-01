@@ -1,10 +1,11 @@
+'use strict';
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
     this.x = x;
     this.y = y;
-    this.speed = Math.floor(200 + Math.random() * 300);
+    this.speed = Math.floor(300 + Math.random() * 300);
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
@@ -78,7 +79,7 @@ Player.prototype.handleInput = function(keyPress) {
         }
     }
     if (keyPress == 'down') {
-        player.y += player.speed + 35;
+        this.y += this.speed + 35;
         if (this.y >= 383) {
             this.y = 383;
         }
