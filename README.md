@@ -9,4 +9,4 @@ This is a frogger-type arcade game, created as a part of a Udacity Frontend Nano
 
 Move the character by using up/right/down/left arrows on your keyboard.
 
-**go to** https://androsh.github.io/game/ **to play!**
+**go to** https://androsh.github.io/udacity-fend-game/ **to play!**
